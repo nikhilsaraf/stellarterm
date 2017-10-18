@@ -91,6 +91,7 @@ class DirectoryBuilder {
       code: details.code,
       issuer: details.issuer,
       domain: anchorDomain,
+      instructions: details.instructions || "Coming Soon...",
     };
 
     this.anchors[anchorDomain].assets[details.code] = slug;
